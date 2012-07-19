@@ -4,8 +4,8 @@ require File.expand_path('../lib/d3skills/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Varun Murali"]
   gem.email         = ["varun.murali93@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "Finds all skills unlocked at a level for diablo"
+  gem.summary       = "Shows skills unlocked at level for diablo 3 hero"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
