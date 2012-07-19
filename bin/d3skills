@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require 'd3skills'
+require 'nokogiri'
+require 'open-uri'
