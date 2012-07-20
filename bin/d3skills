@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'd3skills'
+require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
+
+puts D3skills.get_skills(ARGV[0],ARGV[1])

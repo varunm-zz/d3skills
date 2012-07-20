@@ -15,4 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = D3skills::VERSION
   gem.executables << 'd3skills'
+  gem.add_dependency 'nokogiri'
 end

@@ -1,5 +1,4 @@
 require "d3skills/version"
-require 'nokogiri'
 require 'open-uri'
 
 module D3skills
@@ -32,9 +31,9 @@ module D3skills
 		end
 		skills_unlocked = skills[hero_level]
 		if skills_unlocked == nil
-			return "No skill unlocked"
+			puts "No skill unlocked"
 		else
-			return skills_unlocked
+			puts skills_unlocked
 		end
 	end
 end
